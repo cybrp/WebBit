@@ -1,8 +1,8 @@
 /*
-	Icelib
-	Array type
+	wstring (16 bits)
+	Ice library
 	2015 © Bitcup
-	http://www.bitcup.net
+	Licensed under the MIT license
 */
 
 #pragma once

@@ -1,9 +1,6 @@
-// TestIcelib.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
 
-#include "../../Icelib/icelib.h"
+#include "../../Ice/ice.h"
 using namespace System;
 
 class Console

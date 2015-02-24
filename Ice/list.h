@@ -1,8 +1,8 @@
 /*
-	Icelib
-	wstring type
+	List
+	Ice library
 	2015 © Bitcup
-	http://www.bitcup.net
+	Licensed under the MIT license
 */
 
 #pragma once

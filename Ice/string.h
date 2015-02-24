@@ -1,8 +1,8 @@
 /*
-	Icelib
-	string type
+	string (8 bits)
+	Ice library
 	2015 © Bitcup
-	http://www.bitcup.net
+	Licensed under the MIT license
 */
 
 #pragma once
@@ -14,9 +14,9 @@ namespace System
 	{
 	private:
 		int length = 0;
-		char *data = null;		
+		char *data = null;
 
-	public:		
+	public:
 		// Constructor by default
 		string() {};
 
@@ -42,7 +42,7 @@ namespace System
 		const string operator +(char c);
 
 		// Concatenates char and string
-		friend string operator+(const char c, const string &str);		
+		friend string operator+(const char c, const string &str);
 
 		// Assigns string to the string
 		string& operator= (const string &str);

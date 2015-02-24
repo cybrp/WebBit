@@ -6,7 +6,7 @@ namespace System
 {
 	string::string(const char *str)
 	{
-		length = std::strlen(str);
+		length = strlen(str);
 		data = new char[length + 1];		
 		memcpy(data, str, length + 1);
 	}

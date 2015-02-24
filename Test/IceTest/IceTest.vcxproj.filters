@@ -21,22 +21,22 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\wstring.h">
+    <ClInclude Include="..\..\Ice\wstring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\icelib.h">
+    <ClInclude Include="..\..\Ice\ice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\string.h">
+    <ClInclude Include="..\..\Ice\string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\types.h">
+    <ClInclude Include="..\..\Ice\types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\list.h">
+    <ClInclude Include="..\..\Ice\list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Icelib\array.h">
+    <ClInclude Include="..\..\Ice\array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,10 +44,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestIcelib.cpp">
+    <ClCompile Include="IceTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Icelib\string.cpp">
+    <ClCompile Include="..\..\Ice\string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

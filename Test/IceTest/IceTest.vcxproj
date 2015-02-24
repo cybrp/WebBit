@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D567DE5C-AA56-4B16-BFB3-66CABD8D6FB4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TestIcelib</RootNamespace>
+    <RootNamespace>IceTest</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -75,22 +75,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Icelib\array.h" />
-    <ClInclude Include="..\..\Icelib\icelib.h" />
-    <ClInclude Include="..\..\Icelib\list.h" />
-    <ClInclude Include="..\..\Icelib\string.h" />
-    <ClInclude Include="..\..\Icelib\types.h" />
-    <ClInclude Include="..\..\Icelib\wstring.h" />
+    <ClInclude Include="..\..\Ice\array.h" />
+    <ClInclude Include="..\..\Ice\ice.h" />
+    <ClInclude Include="..\..\Ice\list.h" />
+    <ClInclude Include="..\..\Ice\string.h" />
+    <ClInclude Include="..\..\Ice\types.h" />
+    <ClInclude Include="..\..\Ice\wstring.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Icelib\string.cpp" />
+    <ClCompile Include="..\..\Ice\string.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="TestIcelib.cpp" />
+    <ClCompile Include="IceTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
