@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-#include "../../Ice/ice.h"
+#include "../../../Ice/ice.h"
 using namespace System;
 
 class Console

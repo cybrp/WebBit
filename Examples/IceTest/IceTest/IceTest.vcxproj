@@ -75,17 +75,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Ice\array.h" />
-    <ClInclude Include="..\..\Ice\ice.h" />
-    <ClInclude Include="..\..\Ice\list.h" />
-    <ClInclude Include="..\..\Ice\string.h" />
-    <ClInclude Include="..\..\Ice\types.h" />
-    <ClInclude Include="..\..\Ice\wstring.h" />
+    <ClInclude Include="..\..\..\Ice\array.h" />
+    <ClInclude Include="..\..\..\Ice\ice.h" />
+    <ClInclude Include="..\..\..\Ice\list.h" />
+    <ClInclude Include="..\..\..\Ice\string.h" />
+    <ClInclude Include="..\..\..\Ice\types.h" />
+    <ClInclude Include="..\..\..\Ice\wstring.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Ice\string.cpp" />
+    <ClCompile Include="..\..\..\Ice\string.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
