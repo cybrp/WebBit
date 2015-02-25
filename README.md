@@ -1,8 +1,10 @@
-# Ice
+# WebBit Framework
 
-### Overview
+## 1. Ice
 
-Lightweight cross-platform C++ library for general tasks. This library provide simple functionality for:
+### 1.1. Overview
+
+Ice is lightweight cross-platform C++ library for general tasks. This library provide simple functionality for:
 
 1. string
 2. wstring
@@ -14,7 +16,7 @@ Lightweight cross-platform C++ library for general tasks. This library provide s
 8. SreamWriter
 9. Socket
 
-### Basic Data Types
+### 1.2. Basic Data Types
 Keyword | Description
 --- | ---
 `null` | null pointer
@@ -35,15 +37,30 @@ Keyword | Description
 `wchar` | char 16 bit (UTF-16)
 `dchar` | char 32 bit (UTF-32)
 
-### Dependencies
+### 1.3. Dependencies
 
 - Standard C Library
 - WinAPI
 - Linux Kernel API
 
-###License
+## 2. WebBit Back-end
 
-Ice library is released under the MIT License. See LICENSE file for details.
+### 2.1. Overview
+See documents in Doc folder for detailed information
+
+### 2.2. Dependencies
+
+- Standard C Library
+- Ice Library
+
+## 3. WebBit Front-end (webbit.js)
+
+### 3.1. Overview
+See documents in Doc folder for detailed information
+
+## License
+
+WebBit Framework is released under the MIT License. See LICENSE file for details.
 
 ***
 
